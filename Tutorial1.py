@@ -9,7 +9,7 @@ bottomFrame.pack(side=BOTTOM)
 
 button1 = Button(topFrame, text="Button 1", bg="black", fg="red")
 button2 = Button(topFrame, text="Button 2", fg="purple")
-button3 = Button(topFrame, text="Button 3", fg="yellow")
+button3 = Button(topFrame, text="Button 3", bg="black", fg="yellow")
 button4 = Button(bottomFrame, text="Button 4", fg="orange")
 
 button1.pack(side=LEFT)
